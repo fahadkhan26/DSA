@@ -11,5 +11,4 @@ class Solution:
                 ones -= 1
             maxScore = max(maxScore, zeros + ones)
         return maxScore
-    
-print(Solution().maxScore("011101")) # 5
+
