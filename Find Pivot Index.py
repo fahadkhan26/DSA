@@ -9,5 +9,5 @@ def pivotIndex(nums):
             return i
         else:
             leftSum += nums[i]
-            
+
     return -1
