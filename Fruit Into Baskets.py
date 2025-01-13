@@ -16,4 +16,4 @@ def fruitsinbasket(fruits):
             l += 1
         maxlen = max(maxlen, r - l + 1)
 
-    return basket, maxlen
+    return maxlen
