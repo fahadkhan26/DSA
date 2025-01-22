@@ -19,5 +19,4 @@ def subarrays_with_exactly_k(nums, k):
             count += r - l + 1
         
         return count
-
     return at_most_k(nums, k) - at_most_k(nums, k - 1)
