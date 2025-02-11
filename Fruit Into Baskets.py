@@ -8,7 +8,6 @@ def fruitsinbasket(fruits):
             basket[fruits[r]] = 1
         else:
             basket[fruits[r]] += 1
-
         while len(basket) > 2:
             basket[fruits[l]] -= 1
             if basket[fruits[l]] == 0:
